@@ -9,6 +9,7 @@ function Splash() {
     <h1>Video Tours</h1>
     <h1>Google Earth Tours</h1>
     <h1>Publications</h1>
+    <h1>Fun Resources</h1>
     </>
   )
 }
