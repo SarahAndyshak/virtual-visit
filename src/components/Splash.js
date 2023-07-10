@@ -1,10 +1,11 @@
 import React from "react";
-import { Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 function Splash() {
   return(
     <>
+    <Link to="/met"><h1>The Metropolitan Museum of Art</h1></Link>
     <h1>Exhibits</h1>
     <h1>Video Tours</h1>
     <h1>Google Earth Tours</h1>
