@@ -19,6 +19,9 @@ As of ------, none.
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
 
+## Images
+* [museum favicon from icons8]("https://icons8.com/icon/4837/museum")
+
 ## License
 [MIT](https://opensource.org/license/mit/)
 
