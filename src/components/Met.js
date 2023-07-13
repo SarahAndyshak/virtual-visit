@@ -1,18 +1,19 @@
 import React from "react";
-// import styled from "styled-components";
+import styled from "styled-components";
+import Oxbow from "./../imgs/Oxbow.jpeg";
 
 function Met() {
   return (
     
-    // replace with <StyledMet>?
+    // May need to separate article className for each section
+    // include smooth scrolling between sections? possibly subdirectory to sections
+    // open links in new tab?
+    // replace <> with <StyledMet>?
+
     <>
     <article className="prose max-w-none">
-    {/* May need to separate article className for each section */}
 
-      <h1>The Metropolitan Museum of Art, NYC</h1>
-      {/* include smooth scrolling between sections? possibly subdirectory to sections */}
-
-      {/* Should links open to new tab? */}
+      <h1 className="text-center">The Metropolitan Museum of Art, NYC</h1>
 
       <p>The Metropolitan Museum of Art, founded in 1870, houses over 5,000 works of art in two locations: on 5th Avenue and at the Cloisters. The museum has an enormous amount of material available online, including virtual walk-throughs created with <a href="https://artsandculture.google.com/">Google Arts & Culture,</a> digitized works of art, educational resources, essays, and virtual exhibitions.</p>
 
