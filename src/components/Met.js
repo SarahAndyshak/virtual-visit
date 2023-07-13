@@ -1,14 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 function Met() {
   return (
     
-    // replace with <StyledMet>
+    // replace with <StyledMet>?
     <>
     <article className="prose max-w-none">
     {/* May need to separate article className for each section */}
-    
+
       <h1>The Metropolitan Museum of Art, NYC</h1>
       {/* include smooth scrolling between sections? possibly subdirectory to sections */}
 

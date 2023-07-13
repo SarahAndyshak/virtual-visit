@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+/* link color, action for non-prose sections */
 a {
-  color: blue;
+  color: #3182ce;
+}
+a:hover {
+  color: #2c5282
 }
