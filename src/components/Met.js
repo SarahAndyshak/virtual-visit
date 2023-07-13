@@ -6,6 +6,9 @@ function Met() {
     
     // replace with <StyledMet>
     <>
+    <article className="prose max-w-none">
+    {/* May need to separate article className for each section */}
+    
       <h1>The Metropolitan Museum of Art, NYC</h1>
       {/* include smooth scrolling between sections? possibly subdirectory to sections */}
 
@@ -74,6 +77,8 @@ function Met() {
       {/* replace with linked images, spin from image to text */}
       <a href="https://artsandculture.google.com/partner/the-metropolitan-museum-of-art"><h3>The Met Fifth Avenue</h3></a>
       <a href="https://artsandculture.google.com/partner/the-cloisters-museum-and-gardens"><h3>The Cloisters</h3></a>
+
+      </article>
     </>
     // replace with </StyledMet>
   )

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Button } from 'react-daisyui'
+
 
 function Splash() {
   return(
@@ -11,6 +13,8 @@ function Splash() {
     <h1>Google Earth Tours</h1>
     <h1>Publications</h1>
     <h1>Fun Resources</h1>
+    {/* test button */}
+    <Button color="primary">Click me!</Button>
     </>
   )
 }
