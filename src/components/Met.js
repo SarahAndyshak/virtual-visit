@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Oxbow from "./../imgs/Oxbow.jpeg";
 
 function Met() {
   return (
@@ -12,13 +11,16 @@ function Met() {
 
     <>
     <article className="prose max-w-none">
-
-      <h1 className="text-center">The Metropolitan Museum of Art, NYC</h1>
+      <div className="bg-red-500 p-6">
+      <h1 className="text-center text-white">The Metropolitan Museum of Art, NYC</h1>
 
       <p>The Metropolitan Museum of Art, founded in 1870, houses over 5,000 works of art in two locations: on 5th Avenue and at the Cloisters. The museum has an enormous amount of material available online, including virtual walk-throughs created with <a href="https://artsandculture.google.com/">Google Arts & Culture,</a> digitized works of art, educational resources, essays, and virtual exhibitions.</p>
 
       <p>Much of the Met's collection is in the public domain, so visitors can download and use certain images, materials, and data for their own use in accordance with the museum's <a href="https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources">Open Access policy.</a></p>
       {/* add a tooltip definition of public domain */}
+      </div>
+
+
 
       <h2>Downloadable Art</h2>
       {/* Create slideshow */}
