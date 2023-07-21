@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Oxbow from "./../imgs/Oxbow.jpeg"
 
 function Met() {
   return (
@@ -12,19 +13,40 @@ function Met() {
     <>
     <article className="prose max-w-none">
       <div className="bg-red-500 p-6">
-      <h1 className="text-center text-white">The Metropolitan Museum of Art, NYC</h1>
+        <h1 className="text-center text-white">The Metropolitan Museum of Art, NYC</h1>
 
-      <p>The Metropolitan Museum of Art, founded in 1870, houses over 5,000 works of art in two locations: on 5th Avenue and at the Cloisters. The museum has an enormous amount of material available online, including virtual walk-throughs created with <a href="https://artsandculture.google.com/">Google Arts & Culture,</a> digitized works of art, educational resources, essays, and virtual exhibitions.</p>
+        <p>The Metropolitan Museum of Art, founded in 1870, houses over 5,000 works of art in two locations: on 5th Avenue and at the Cloisters. The museum has an enormous amount of material available online, including virtual walk-throughs created with <a href="https://artsandculture.google.com/">Google Arts & Culture,</a> digitized works of art, educational resources, essays, and virtual exhibitions.</p>
 
-      <p>Much of the Met's collection is in the public domain, so visitors can download and use certain images, materials, and data for their own use in accordance with the museum's <a href="https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources">Open Access policy.</a></p>
+        <p>Much of the Met's collection is in the public domain, so visitors can download and use certain images, materials, and data for their own use in accordance with the museum's <a href="https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources">Open Access policy.</a></p>
       {/* add a tooltip definition of public domain */}
       </div>
 
+{/* How to style background images */}
+      {/* <div
+        className="bg-cover bg-center text-white h-auto max-w-full m-0 p-6"
+        style={{
+          backgroundImage: `url(${Oxbow})`
+        }}
+      >
+      <h2 className="text-white text-center">Downloadable Art</h2>
+      </div> */}
 
 
-      <h2>Downloadable Art</h2>
-      {/* Create slideshow */}
+      <h2 className="m-0 p-6">Downloadable Art</h2>
+      {/* Create slideshow here */}
+
+{/* how to insert an image */}
+      <img 
+        src={Oxbow}
+        className="h-auto max-w-full m-0"
+      />
+
+
+      
       <p>You can search the <a href="https://www.metmuseum.org/art/the-collection">Met's collection</a> by title, keyword, artist, geographic region, historical period, material, and more, or you can look through curated collections available on the museum's site. <a href="https://www.metmuseum.org/art/collection/search?showOnly=highlights%7CwithImage&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Highlights of the collection</a> have their own page, as do <a href="https://www.metmuseum.org/art/collection/search?showOnly=withImage%7CopenAccess&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Open Access works</a> available for free download. Click on any of the works and you can learn much more about each piece in depth.</p>
+
+
+
 
       <h2>3D Printing Models</h2>
       <p>Want a copy of a sculptural work from the Met's collection? If you have access to a 3D printer, you can download files for free and print your own copy! In fact, the Met encourages visitors to create their own files for 3D models by photographing works in the public domain. You can download files from the Met's <a href="https://www.thingiverse.com/met/designs">thingiverse page</a> and search for more files created by visitors online.</p>
