@@ -1,6 +1,18 @@
 import React from "react";
-import styled from "styled-components";
-import Oxbow from "./../imgs/Oxbow.jpeg"
+import { Button } from 'react-daisyui'
+
+// import styled from "styled-components";
+import Amphora from "./../imgs/MetImgs/Amphora.jpeg"
+import BhairavaHead from "./../imgs/MetImgs/BhairavaHead.jpeg"
+import Book from "./../imgs/MetImgs/Book.jpeg"
+import Cradleboard from "./../imgs/MetImgs/Cradleboard.jpeg"
+import Dancer from "./../imgs/MetImgs/DegasDancer.jpeg"
+import Dress from "./../imgs/MetImgs/DinnerDress.jpeg"
+import Window from "./../imgs/MetImgs/LaFargeWindow.jpeg"
+import Mastaba from "./../imgs/MetImgs/Mastaba.jpeg"
+import Oxbow from "./../imgs/MetImgs/Oxbow.jpeg"
+import Tunic from "./../imgs/MetImgs/Tunic.jpeg"
+import WheatFields from "./../imgs/MetImgs/VGWheatField.jpeg"
 
 function Met() {
   return (
@@ -31,27 +43,30 @@ function Met() {
       <h2 className="text-white text-center">Downloadable Art</h2>
       </div> */}
 
-
-      <h2 className="m-0 p-6">Downloadable Art</h2>
-      {/* Create slideshow here */}
-
-{/* how to insert an image */}
-      <img 
+{/* How to insert image */}
+      {/* <img 
         src={Oxbow}
         className="h-auto max-w-full m-0"
-      />
+      /> */}
 
+{/* Create slideshow here? */}
 
+      <div className="inline-block bg-blue-500 pr-6">
+        <img src={Oxbow} className="mr-6 md:w-1/2 float-left" />
+
+          <h2>Downloadable Art</h2>
+          <p>You can search the <a href="https://www.metmuseum.org/art/the-collection">Met's collection</a> by title, keyword, artist, geographic region, historical period, material, and more, or you can look through curated collections available on the museum's site. <a href="https://www.metmuseum.org/art/collection/search?showOnly=highlights%7CwithImage&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Highlights of the collection</a> have their own page, as do <a href="https://www.metmuseum.org/art/collection/search?showOnly=withImage%7CopenAccess&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Open Access works</a> available for free download. Click on any of the works and you can learn much more about each piece in depth.</p>
       
-      <p>You can search the <a href="https://www.metmuseum.org/art/the-collection">Met's collection</a> by title, keyword, artist, geographic region, historical period, material, and more, or you can look through curated collections available on the museum's site. <a href="https://www.metmuseum.org/art/collection/search?showOnly=highlights%7CwithImage&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Highlights of the collection</a> have their own page, as do <a href="https://www.metmuseum.org/art/collection/search?showOnly=withImage%7CopenAccess&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Open Access works</a> available for free download. Click on any of the works and you can learn much more about each piece in depth.</p>
+          <h2>3D Printing Models</h2>
+          <p>Want a copy of a sculptural work from the Met's collection? If you have access to a 3D printer, you can download files for free and print your own copy! In fact, the Met encourages visitors to create their own files for 3D models by photographing works in the public domain. You can download files from the Met's <a href="https://www.thingiverse.com/met/designs">thingiverse page</a> and search for more files created by visitors online.</p>
 
+      </div>
 
+      {/* <img src={Amphora} className="m-0 md:w-1/2 float-right" /> */}
 
-
-      <h2>3D Printing Models</h2>
-      <p>Want a copy of a sculptural work from the Met's collection? If you have access to a 3D printer, you can download files for free and print your own copy! In fact, the Met encourages visitors to create their own files for 3D models by photographing works in the public domain. You can download files from the Met's <a href="https://www.thingiverse.com/met/designs">thingiverse page</a> and search for more files created by visitors online.</p>
 
       <h2>Online Exhibitions</h2>
+      {/* Make this a slideshow? */}
       <p>Google Arts & Culture hosts several online exhibitions created by the Met. These are just a few samples, check out more on the site!</p>
       {/* add linked image for each, colored background */}
 
@@ -66,7 +81,7 @@ function Met() {
       <p>This piece is also featured in an episode of "Moving Pictures," created by BBC Radio 4</p>
       <a href="https://www.bbc.co.uk/programmes/b07w9jg5"></a>
 
-      <h3>Before Yesterday We COuld Fly: An Afrofuturist Period Room</h3>
+      <h3>Before Yesterday We Could Fly: An Afrofuturist Period Room</h3>
       <p>Discover an installation work inspired by historical Seneca Village, which imagines what a future home could have looked like if the African American community had not been destroyed.</p>
       <a href="https://artsandculture.google.com/story/OwVRKgZz3RFkSg"></a>
 
