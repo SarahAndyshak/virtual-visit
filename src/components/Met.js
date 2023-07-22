@@ -13,6 +13,7 @@ import Mastaba from "./../imgs/MetImgs/Mastaba.jpeg"
 import Oxbow from "./../imgs/MetImgs/Oxbow.jpeg"
 import Tunic from "./../imgs/MetImgs/Tunic.jpeg"
 import WheatFields from "./../imgs/MetImgs/VGWheatField.jpeg"
+import WaveDetail from "./../imgs/MetImgs/WaveDetail.png"
 
 function Met() {
   return (
@@ -24,7 +25,7 @@ function Met() {
 
     <>
     <article className="prose max-w-none">
-      <div className="bg-red-500 p-6">
+      <div className="bg-red-500 p-6 text-white">
         <h1 className="text-center text-white">The Metropolitan Museum of Art, NYC</h1>
 
         <p>The Metropolitan Museum of Art, founded in 1870, houses over 5,000 works of art in two locations: on 5th Avenue and at the Cloisters. The museum has an enormous amount of material available online, including virtual walk-throughs created with <a href="https://artsandculture.google.com/">Google Arts & Culture,</a> digitized works of art, educational resources, essays, and virtual exhibitions.</p>
@@ -36,62 +37,64 @@ function Met() {
 {/* How to style background images */}
       {/* <div
         className="bg-cover bg-center text-white h-auto max-w-full m-0 p-6"
-        style={{
-          backgroundImage: `url(${Oxbow})`
-        }}
+        style={{backgroundImage: `url(${Oxbow})`}}
       >
       <h2 className="text-white text-center">Downloadable Art</h2>
       </div> */}
 
-{/* How to insert image */}
-      {/* <img 
-        src={Oxbow}
-        className="h-auto max-w-full m-0"
-      /> */}
+{/* How to insert image full width, responsive */}
+      {/* <img src={Oxbow} className="h-auto max-w-full m-0"/> */}
 
 {/* Create slideshow here? */}
 
-      <div className="inline-block bg-blue-500 pr-6">
-        <img src={Oxbow} className="mr-6 md:w-1/2 float-left" />
+      <div className="inline-block pr-6">
+        <img src={Oxbow} alt="Oxbow" className="mr-6 md:w-1/2 float-left" />
 
-          <h2>Downloadable Art</h2>
-          <p>You can search the <a href="https://www.metmuseum.org/art/the-collection">Met's collection</a> by title, keyword, artist, geographic region, historical period, material, and more, or you can look through curated collections available on the museum's site. <a href="https://www.metmuseum.org/art/collection/search?showOnly=highlights%7CwithImage&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Highlights of the collection</a> have their own page, as do <a href="https://www.metmuseum.org/art/collection/search?showOnly=withImage%7CopenAccess&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Open Access works</a> available for free download. Click on any of the works and you can learn much more about each piece in depth.</p>
+        <h2>Downloadable Art</h2>
+        <p>You can search the <a href="https://www.metmuseum.org/art/the-collection">Met's collection</a> by title, keyword, artist, geographic region, historical period, material, and more, or you can look through curated collections available on the museum's site. <a href="https://www.metmuseum.org/art/collection/search?showOnly=highlights%7CwithImage&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Highlights of the collection</a> have their own page, as do <a href="https://www.metmuseum.org/art/collection/search?showOnly=withImage%7CopenAccess&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=All">Open Access works</a> available for free download. Click on any of the works and you can learn much more about each piece in depth.</p>
       
-          <h2>3D Printing Models</h2>
-          <p>Want a copy of a sculptural work from the Met's collection? If you have access to a 3D printer, you can download files for free and print your own copy! In fact, the Met encourages visitors to create their own files for 3D models by photographing works in the public domain. You can download files from the Met's <a href="https://www.thingiverse.com/met/designs">thingiverse page</a> and search for more files created by visitors online.</p>
-
+        <h2>3D Printing Models</h2>
+        <p>Want a copy of a sculptural work from the Met's collection? If you have access to a 3D printer, you can download files for free and print your own copy! In fact, the Met encourages visitors to create their own files for 3D models by photographing works in the public domain. You can download files from the Met's <a href="https://www.thingiverse.com/met/designs">thingiverse page</a> and search for more files created by visitors online.</p>
       </div>
 
-      {/* <img src={Amphora} className="m-0 md:w-1/2 float-right" /> */}
+      <div
+        className="w-full p-12 bg-no-repeat bg-cover text-center text-white"
+        style={{backgroundImage: `url(${WaveDetail})`}}
+        >
+
+        <h2 className="text-center text-white">Online Exhibitions</h2>
+        <h3 className="text-center text-white">Google Arts & Culture hosts several online exhibitions created by the Met. These are just a few samples, check out more on the site!</h3>
+        
+        <h3>Making the Met</h3>
+        <a href ="https://artsandculture.google.com/story/2wXR-pBlvVqAJQ"></a>
+        <p>A multimedia exhibition celebrating the Met's 150th anniversary by recounting its history and showcasing highlights from its collection.</p>
+        
+        <h3>Behind the Scenes at The Costume Institute Conservation Lab</h3>
+        <p>A look at how the historical clothing in the Met's collections are conserved and displayed.</p>
+        <a href="https://artsandculture.google.com/story/ygURqUmRX42zJg"></a>
+
+        <h3>Celebrating Asian and Pacific Islander Heritage</h3>
+        <p>This exhibition highlights a few artistic contributions from AAPI artists featured in the Met's collection.</p>
+        <a href="https://artsandculture.google.com/story/ggXBT3SK-gKWqA"></a>
+        
+        <h3>Before Yesterday We Could Fly: An Afrofuturist Period Room</h3>
+        <p>Discover an installation work inspired by historical Seneca Village, which imagines what a future home could have looked like if the African American community had not been destroyed.</p>
+        <a href="https://artsandculture.google.com/story/OwVRKgZz3RFkSg"></a>
+      
+        <h3>Pieter Bruegel's Harvesters</h3>
+        <a href="https://artsandculture.google.com/story/kQUxmAo9GNvEJA"></a>
+        <p>A closer look at the tiny details in one of Pieter Bruegel's paintings.</p>
+        {/* Add a link to the BBC's related radio program */}
+        <p>This piece is also featured in an episode of "Moving Pictures," created by BBC Radio 4</p>
+        <a href="https://www.bbc.co.uk/programmes/b07w9jg5"></a>
+      </div>
 
 
-      <h2>Online Exhibitions</h2>
-      {/* Make this a slideshow? */}
-      <p>Google Arts & Culture hosts several online exhibitions created by the Met. These are just a few samples, check out more on the site!</p>
       {/* add linked image for each, colored background */}
 
-      <h3>Making the Met</h3>
-      <a href ="https://artsandculture.google.com/story/2wXR-pBlvVqAJQ"></a>
-      <p>A multimedia exhibition celebrating the Met's 150th anniversary by recounting its history and showcasing highlights from its collection.</p>
 
-      <h3>Pieter Bruegel's Harvesters</h3>
-      <a href="https://artsandculture.google.com/story/kQUxmAo9GNvEJA"></a>
-      <p>A closer look at the tiny details in one of Pieter Bruegel's paintings.</p>
-      {/* Add a link to the BBC's related radio program */}
-      <p>This piece is also featured in an episode of "Moving Pictures," created by BBC Radio 4</p>
-      <a href="https://www.bbc.co.uk/programmes/b07w9jg5"></a>
 
-      <h3>Before Yesterday We Could Fly: An Afrofuturist Period Room</h3>
-      <p>Discover an installation work inspired by historical Seneca Village, which imagines what a future home could have looked like if the African American community had not been destroyed.</p>
-      <a href="https://artsandculture.google.com/story/OwVRKgZz3RFkSg"></a>
 
-      <h3>Behind the Scenes at The Costume Institute Conservation Lab</h3>
-      <p>A look at how the historical clothing in the Met's collections are conserved and displayed.</p>
-      <a href="https://artsandculture.google.com/story/ygURqUmRX42zJg"></a>
-
-      <h3>Celebrating Asian and Pacific Islander Heritage</h3>
-      <p>This exhibition highlights a few artistic contributions from AAPI artists featured in the Met's collection.</p>
-      <a href="https://artsandculture.google.com/story/ggXBT3SK-gKWqA"></a>
 
       <h2>Virtual Walk-throughs</h2>
       {/* Side-by-side images and links, hover enlarge/color */}
