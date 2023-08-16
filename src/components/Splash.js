@@ -14,7 +14,7 @@ function Splash() {
     <h1>Publications</h1>
     <h1>Fun Resources</h1>
     {/* test button */}
-    <Button color="primary">Click me!</Button>
+    {/* <Button color="primary">Click me!</Button> */}
     </>
   )
 }
