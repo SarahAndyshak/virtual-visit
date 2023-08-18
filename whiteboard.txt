@@ -4,6 +4,7 @@ Log:
 - 7/7/23: More research, decided not to use DaisyUI for slideshow -- CSS options on Figma instead
 - 7/10/23: Text to Met.js, update favicon and page title
 - 7/13/23: Add Tailwind, DaisyUI; need to look up how to get background colors, images working
+- August: updating the Met's page
 
 NOTES: 
 - don't forget to check responsive design -- may need to alter index.html

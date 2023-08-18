@@ -6,21 +6,23 @@ Online exhibits and tours have been around for a while, but got more attention d
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Using This App
-Visit the [site online here!]()
+<!-- Visit the [site online here!]() -->
 
 ## Technologies Used
 * React.js
 * create-react-app
+* TailwindCSS
 * VS Code
 
 ## Known Bugs
-As of ------, none.
+
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
 
 ## Images
 * [museum favicon from icons8]("https://icons8.com/icon/4837/museum")
+* Metropolitan Museum of Art: for the associated page on the site
 
 ## License
 [MIT](https://opensource.org/license/mit/)
