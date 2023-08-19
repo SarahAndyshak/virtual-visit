@@ -23,6 +23,7 @@ function Header() {
             <li><Link to="/"><p>Home</p></Link></li>
             {/* <li><a>The Met</a></li> */}
             <li><Link to="/met">The Met</Link></li>
+            <li><Link to="/manuscripts">Manuscripts</Link></li>
           </ul>
         </div>
         

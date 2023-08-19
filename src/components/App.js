@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import Splash from './Splash';
 import Met from './Met';
+import Manuscripts from './Manuscripts'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Splash />} />
       <Route path="/met" element={<Met />} />
+      <Route path="manuscripts" element={<Manuscripts />} />
     </Routes>
     </>
   );

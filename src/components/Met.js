@@ -11,17 +11,6 @@ import RoughWaves from "./../imgs/MetImgs/RoughWaves.jpeg"
 import SkyDetail from "./../imgs/MetImgs/SkyDetail.png"
 import TunicDetail from "./../imgs/MetImgs/TunicDetail.png"
 
-// import WaveDetail from "./../imgs/MetImgs/WaveDetail.png"
-// import FieldDetail from "./../imgs/MetImgs/FieldDetail.png"
-// import Amphora from "./../imgs/MetImgs/Amphora.jpeg"
-// import BhairavaHead from "./../imgs/MetImgs/BhairavaHead.jpeg"
-// import Book from "./../imgs/MetImgs/Book.jpeg"
-// import Cradleboard from "./../imgs/MetImgs/Cradleboard.jpeg"
-// import Dancer from "./../imgs/MetImgs/DegasDancer.jpeg"
-// import Dress from "./../imgs/MetImgs/DinnerDress.jpeg"
-// import Mastaba from "./../imgs/MetImgs/Mastaba.jpeg"
-// import Tunic from "./../imgs/MetImgs/Tunic.jpeg"
-// import WheatFields from "./../imgs/MetImgs/VGWheatField.jpeg"
 
 
 // Add open links in new tab?
@@ -54,6 +43,7 @@ function Met() {
 
 
 {/* Try turning this section into a carousel once the page is set up */}
+
 {/* Online exibitions */}
       <div
         className="w-full bg-no-repeat bg-cover bg-center"
@@ -66,19 +56,19 @@ function Met() {
         <h2 className="text-center text-white">Online Exhibitions</h2>
         <h3 className="text-center text-white">Google Arts & Culture hosts several online exhibitions created by the Met. These are just a few samples, check out more on the site!</h3>
 
-        <h3><a className="text-center text-white" href="https://artsandculture.google.com/story/2wXR-pBlvVqAJQ">Making the Met</a></h3>
+        <h3><a className="text-center text-yellow-500 hover:text-green-600" href="https://artsandculture.google.com/story/2wXR-pBlvVqAJQ">Making the Met</a></h3>
         <p>A multimedia exhibition celebrating the Met's 150th anniversary by recounting its history and showcasing highlights from its collection.</p>
         
-        <h3><a className="text-center text-white" href="https://artsandculture.google.com/story/ygURqUmRX42zJg">Behind the Scenes at The Costume Institute Conservation Lab</a></h3>
+        <h3><a className="text-center text-yellow-500 hover:text-green-600" href="https://artsandculture.google.com/story/ygURqUmRX42zJg">Behind the Scenes at The Costume Institute Conservation Lab</a></h3>
         <p>A look at how the historical clothing in the Met's collections are conserved and displayed.</p>
 
-        <h3><a className="text-center text-white" href="https://artsandculture.google.com/story/ggXBT3SK-gKWqA">Celebrating Asian and Pacific Islander Heritage</a></h3>
+        <h3><a className="text-center text-yellow-500 hover:text-green-600" href="https://artsandculture.google.com/story/ggXBT3SK-gKWqA">Celebrating Asian and Pacific Islander Heritage</a></h3>
         <p>This exhibition highlights a few artistic contributions from AAPI artists featured in the Met's collection.</p>
         
-        <h3><a className="text-center text-white" href="https://artsandculture.google.com/story/OwVRKgZz3RFkSg">Before Yesterday We Could Fly: An Afrofuturist Period Room</a></h3>
+        <h3><a className="text-center text-yellow-500 hover:text-green-600" href="https://artsandculture.google.com/story/OwVRKgZz3RFkSg">Before Yesterday We Could Fly: An Afrofuturist Period Room</a></h3>
         <p>Discover an installation work inspired by historical Seneca Village, which imagines what a future home could have looked like if the African American community had not been destroyed.</p>
       
-        <h3><a className="text-center text-white" href="https://artsandculture.google.com/story/kQUxmAo9GNvEJA">Pieter Bruegel's Harvesters</a></h3>
+        <h3><a className="text-center text-yellow-500 hover:text-green-600" href="https://artsandculture.google.com/story/kQUxmAo9GNvEJA">Pieter Bruegel's Harvesters</a></h3>
         <p>A closer look at the tiny details in one of Pieter Bruegel's paintings. This piece is also featured in <a className="text-white" href="https://www.bbc.co.uk/programmes/b07w9jg5">an episode of "Moving Pictures,"</a> created by BBC Radio 4</p>
 
         </div>
@@ -110,7 +100,7 @@ function Met() {
         <div className="flex justify-center items-center h-full">
         <div className="bg-[hsla(0,0%,0%,0.7)] px-6 py-12">
           <h2 className="text-white">The Heilbrunn Timeline of Art History</h2>
-          <p><a className="text-white" href="https://www.metmuseum.org/toah">The Heilbrunn Timline of Art History</a> provides another way for visitors to easily <a className="text-white" href="https://www.metmuseum.org/toah/works">find artworks by period, theme, and material,</a> but it also presents <a className="text-white" href="https://www.metmuseum.org/toah/chronology">timelines</a> to help visitors visualize connections. Scholars connected to the museum have <a className="text-white" href="https://www.metmuseum.org/toah/essays">written essays</a> about many specific works of art, as well as movements, themes, and time periods, all available on the Timeline.</p>
+          <p><a className="text-yellow-500 hover:text-green-600" href="https://www.metmuseum.org/toah">The Heilbrunn Timline of Art History</a> provides another way for visitors to easily <a className="text-yellow-500 hover:text-green-600" href="https://www.metmuseum.org/toah/works">find artworks by period, theme, and material,</a> but it also presents <a className="text-yellow-500 hover:text-green-600" href="https://www.metmuseum.org/toah/chronology">timelines</a> to help visitors visualize connections. Scholars connected to the museum have <a className="text-yellow-500 hover:text-green-600" href="https://www.metmuseum.org/toah/essays">written essays</a> about many specific works of art, as well as movements, themes, and time periods, all available on the Timeline.</p>
         </div>
         </div>
       </div>
