@@ -6,6 +6,7 @@ import ClariciaDetail from "./../imgs/Walters/ClariciaDetail.png"
 import BookPlateDetail from "./../imgs/MetImgs/BookPlateDetail.png"
 import MiraDE from "./../imgs/Getty/MCMf143.jpg"
 import LibraryShelves from "./../imgs/LibraryInterior.jpg"
+import MoralizedBible from "./../imgs/MorganMsM240f8r.jpeg"
 
 
 function Manuscripts() {
@@ -48,6 +49,7 @@ function Manuscripts() {
         <p><a href="https://thewalters.org/">The Walters Art Museum</a> in Baltimore has created a fun interface where you can flip through the pages of their digitized manuscripts. Search their collection by book type, period, culture, region, and more!</p>
       </div>
     </div>
+
 
 {/* MetPublications */}
     <div className="bg-green-700 p-1"></div>
@@ -113,6 +115,31 @@ function Manuscripts() {
 
     </div> 
 
+{/* Morgan Library */}
+
+    <div className="flex flex-wrap md:flex-nowrap">
+        <img 
+          src={MoralizedBible} 
+          alt="Dedication image from the Morgan's Moralized Bible, MS M.240, f.8r"
+          className="my-0 w-screen md:w-1/3"
+        />
+      
+      <div className="bg-amber-100 p-6 py-12 md:text-center md:w-2/3">
+      
+        <h1>The Morgan Library and Museum</h1>
+
+        <p>The <a href="https://www.themorgan.org/">Morgan Library and Museum</a> (New York City) provides visitors with commentary on many works in their collection, along with zoomable images.</p>
+        
+        <a href="https://www.themorgan.org/digital-facsimiles"><Button className="bg-yellow-700 m-1 hover:bg-yellow-500 text-2xl text-amber-100 border-0">Digital Facsimiles</Button></a>
+
+        <a href="https://www.themorgan.org/online-exhibitions"><Button className="bg-yellow-700 m-1 hover:bg-yellow-500 text-2xl text-amber-100 border-0">Online Exhibitions</Button></a>
+
+        <a href="https://www.themorgan.org/collection"><Button className="bg-yellow-700 m-1 hover:bg-yellow-500 text-2xl text-amber-100 border-0">Explore the Collection</Button></a>
+
+      </div>
+    </div>
+
+
 {/* World Digital Library */}
     <div
       className="w-full bg-no-repeat bg-cover bg-center"
@@ -135,7 +162,15 @@ function Manuscripts() {
 
     </div>
 
-{/* Morgan Library */}
+
+{/* Gallica */}
+
+    <div>
+      <p><a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop">Gallica</a> is one of the digital libraries connected with the Bibliothèque nationale de France. Its resources are largely in the public domain.</p>
+    </div>
+
+
+{/* Individual manuscripts -- Book of Kells etc */}
 
 
     </article>
