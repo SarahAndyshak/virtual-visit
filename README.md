@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * VS Code
 
 ## Known Bugs
-
+* Links on the Splash page work, but don't open to the top of the new page.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
