@@ -7,6 +7,7 @@ import BookPlateDetail from "./../imgs/MetImgs/BookPlateDetail.png"
 import MiraDE from "./../imgs/Getty/MCMf143.jpg"
 import LibraryShelves from "./../imgs/LibraryInterior.jpg"
 import MoralizedBible from "./../imgs/MorganMsM240f8r.jpeg"
+import LaPorteDesReves from "./../imgs/LaPorteDesRevesBnF.jpeg"
 
 
 function Manuscripts() {
@@ -52,7 +53,7 @@ function Manuscripts() {
 
 
 {/* MetPublications */}
-    <div className="bg-green-700 p-1"></div>
+    {/* <div className="bg-green-700 p-1"></div>
 
     <img 
       src={BookPlateDetail}
@@ -65,7 +66,28 @@ function Manuscripts() {
       <p>Books, magazines, and exhibition catalogues related to the <a href="https://www.metmuseum.org/">Metropolitan Museum of Art's</a> collection, available to download or read online.</p>
     </div>
 
-    <div className="bg-sky-700 p-1"></div>
+    <div className="bg-sky-700 p-1"></div> */}
+
+{/* MetPublications 2 */}
+    <div
+      className="bg-cover bg-center"
+      style={{backgroundImage: `url(${BookPlateDetail})`}}
+    >
+      <div className="bg-[hsla(0,0%,0%,0.6)]">
+      <div className="flex justify-center items-center h-full">
+
+      <div className="py-44 px-12 text-center text-white">
+        <div className="text-center p-6">
+        <a href="https://www.metmuseum.org/art/metpublications"><Button className="bg-red-700 hover:bg-red-500 text-2xl text-white border-0">Met Publications</Button></a>
+
+        <p>Books, magazines, and exhibition catalogues related to the <a className="text-white hover:text-red-500" href="https://www.metmuseum.org/">Metropolitan Museum of Art's</a> collection, available to download or read online.</p>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </div>
+    
 
 {/* Getty */}
     <div className="flex flex-wrap md:flex-nowrap">
@@ -164,10 +186,21 @@ function Manuscripts() {
 
 
 {/* Gallica */}
+<div className="flex flex-wrap md:flex-nowrap">
+      
+      <div className="bg-lime-100 p-6 py-12 md:text-center md:w-2/3">
 
-    <div>
-      <p><a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop">Gallica</a> is one of the digital libraries connected with the Bibliothèque nationale de France. Its resources are largely in the public domain.</p>
+        <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-lime-100 border-0">Gallica</Button></a>
+
+        <p><a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop">Gallica</a> is one of the digital libraries connected with the Bibliothèque nationale de France. Its resources are largely in the public domain. Visit this site for digitized manuscripts, incunabula, books, magazines, photographs, and music housed in the BnF's collection.</p>
+      </div>
+        <img 
+          src={LaPorteDesReves} 
+          alt="Illustrated title page from La Portes des Rêves."
+          className="my-0 w-screen md:w-1/3"
+        />
     </div>
+
 
 
 {/* Individual manuscripts -- Book of Kells etc */}
