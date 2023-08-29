@@ -202,8 +202,15 @@ function Manuscripts() {
     </div>
 
 
-
 {/* Individual manuscripts -- Book of Kells etc */}
+
+<div>
+  <h1>Take a look at a few individual manuscripts to get started!</h1>
+</div>
+
+<div>
+  <a href="https://digitalcollections.tcd.ie/concern/works/hm50tr726?locale=en"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-lime-100 border-0">The Book of Kells</Button></a>
+</div>
 
 
     </article>
