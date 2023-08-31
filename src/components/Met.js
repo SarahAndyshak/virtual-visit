@@ -80,7 +80,7 @@ function Met() {
 {/* Oxbow and downloadables */}
       <div className="bg-yellow-500">
       <div className="inline-block">
-        <img src={Oxbow} alt="Oxbow" className="px-6 mr-6 md:w-1/2 float-left" />
+        <img src={Oxbow} alt="Cole's The Oxbow" className="px-6 mr-6 md:w-1/2 float-left" />
         
         <div className="p-6">
         <h2>Downloadable Art</h2>
@@ -117,12 +117,12 @@ function Met() {
         <h3><a href="https://artsandculture.google.com/partner/the-metropolitan-museum-of-art">The Met Fifth Avenue</a> | <a className="" href="https://artsandculture.google.com/partner/the-cloisters-museum-and-gardens">The Cloisters</a></h3>
         <p>Each of the Met's locations has a dedicated page on Google Arts & Culture where visitors can find the virtual walk-throughs, highlights from the collection, and online exhibitions.</p>
         </div>
-        <img src={RoughWaves} className="md:w-1/2 p-6"/>
+        <img src={RoughWaves} alt="Korin's Rough Waves" className="md:w-1/2 p-6"/>
       </div>
       </div>
 
 {/* VanGogh Sky bannner */}
-      <img src={SkyDetail} className="my-0"/>
+      <img src={SkyDetail} alt="Detail from Van Gogh's Wheat Fields with Cypresses" className="my-0"/>
 
 {/* Virtual Walk-throughs, 2 columns */}
       <div className="bg-yellow-500 pt-6 text-center">
@@ -132,20 +132,20 @@ function Met() {
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="bg-none px-6 md:w-1/2">
           <h2 className="text-center"><a href="https://artsandculture.google.com/streetview/metropolitan-museum-of-art/KAFHmsOTE-4Xyw?sv_lng=-73.9624786&sv_lat=40.7803959&sv_h=322.9&sv_p=0&sv_pid=KeFx8oXHzeuY8L5rfepHaA&sv_z=1">Walk Through the Met Fifth Avenue</a></h2>
-          <img src={DanceClass} alt="Degas Dance Class"/>
+          <img src={DanceClass} alt="Degas' The Dance Class"/>
           <p>The Met Fifth Avenue houses art from all over the world and many periods of history. Some sections of the museum feature entire buildings, like the Roman-era Temple of Dendur in the Egyptian wing.</p>
         </div>
 
         <div className="bg-none px-6 md:w-1/2">
           <h2 className="text-center"><a href="https://artsandculture.google.com/streetview/the-cloisters-museum-and-gardens/aAFFBxRsY3TilQ">Walk Through the Cloisters</a></h2>
-          <img src={Theodosius} alt="Stained glass window"/>
+          <img src={Theodosius} alt="Stained glass window, Theodosius Arrives at Ephesus, Met 1980.263.4"/>
           <p>The Cloisters, which opened in 1938, houses much of the Met's medieval European collection. The Cloisters takes its name from the elements of medieval <span className="tooltip underline text-green-700 hover:text-red-600" data-tip="a covered walkway around a square courtyard in an abbey">cloisters</span> incorported into its structure.</p>
         </div>
       </div>
       </div>
 
 {/* Tunic banner */}
-      <img src={TunicDetail} className="my-0"/>
+      <img src={TunicDetail} alt="Detail from a Peruvian Tunic, Met 1987.394.706" className="my-0"/>
 
 
 
