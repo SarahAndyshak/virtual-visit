@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from 'react-daisyui'
 
 import Shelf from "./../imgs/Shelf.jpg"
+import KellsDetail from "./../imgs/KellsDetail.png"
 import ClariciaDetail from "./../imgs/Walters/ClariciaDetail.png"
 import BookPlateDetail from "./../imgs/MetImgs/BookPlateDetail.png"
 import MiraDE from "./../imgs/Getty/MCMf143.jpg"
@@ -26,6 +27,7 @@ function Manuscripts() {
       <div className="py-44 px-12 text-center text-white">
         <h1 className="text-white">Manuscripts, Incunabula, Books</h1>
         <h2 className="text-white">More and more museums and libraries are digitizing their collections and making manuscripts, <span className="tooltip underline text-white hover:text-yellow-500" data-tip="incunabula are early printed books, typically printed before 1500 CE">incunabula</span>, and books available online. Many of the images from these works are in the public domain.</h2>
+        <h2 className="text-white">Here are just a few resources to get started.</h2>
       </div>
 
       </div>
@@ -33,6 +35,28 @@ function Manuscripts() {
     </div>
 
     <div className="bg-black p-1"></div>
+
+
+{/* Individual manuscripts -- Book of Kells etc */}
+
+    <div
+      className="bg-cover bg-center"
+      style={{backgroundImage: `url(${KellsDetail})`}}
+    >
+      <div className="bg-[hsla(0,0%,0%,0)]">
+      <div className="flex justify-center items-center h-full">
+
+      <div className="py-44 px-12 text-center text-white">
+        <div>
+          <a href="https://digitalcollections.tcd.ie/concern/works/hm50tr726?locale=en"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-amber-300 border-1 border-amber-300 hover:border-amber-300">The Book of Kells</Button></a>
+        </div>
+
+      </div>
+
+      </div>
+      </div>
+    </div>
+
 
 {/* Collections */}
 
@@ -44,7 +68,7 @@ function Manuscripts() {
           className="my-0 w-screen md:w-1/3"
         />
       
-      <div className="bg-lime-100 p-6 py-12 md:text-center md:w-2/3">
+      <div className="bg-lime-100 p-6 py-12 text-center md:w-2/3">
       
         <a href="https://manuscripts.thewalters.org/"><Button className="bg-green-700 hover:bg-green-500 text-2xl text-yellow-100 border-0">The Walters Ex Libris</Button></a>
         <p><a href="https://thewalters.org/">The Walters Art Museum</a> in Baltimore has created a fun interface where you can flip through the pages of their digitized manuscripts. Search their collection by book type, period, culture, region, and more!</p>
@@ -92,7 +116,7 @@ function Manuscripts() {
 {/* Getty */}
     <div className="flex flex-wrap md:flex-nowrap">
       
-      <div className="bg-sky-100 p-6 py-12 md:text-center md:w-2/3">
+      <div className="bg-sky-100 p-6 py-12 text-center md:w-2/3">
 
         <h1>The Getty</h1>
 
@@ -146,7 +170,7 @@ function Manuscripts() {
           className="my-0 w-screen md:w-1/3"
         />
       
-      <div className="bg-amber-100 p-6 py-12 md:text-center md:w-2/3">
+      <div className="bg-amber-100 p-6 py-12 text-center md:w-2/3">
       
         <h1>The Morgan Library and Museum</h1>
 
@@ -188,9 +212,9 @@ function Manuscripts() {
 {/* Gallica */}
 <div className="flex flex-wrap md:flex-nowrap">
       
-      <div className="bg-lime-100 p-6 py-12 md:text-center md:w-2/3">
+      <div className="bg-lime-100 p-6 py-12 text-center md:w-2/3">
 
-        <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-lime-100 border-0">Gallica</Button></a>
+        <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-lime-100 border-0 ">Gallica</Button></a>
 
         <p><a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop">Gallica</a> is one of the digital libraries connected with the Bibliothèque nationale de France. Its resources are largely in the public domain. Visit this site for digitized manuscripts, incunabula, books, magazines, photographs, and music housed in the BnF's collection.</p>
       </div>
@@ -200,17 +224,6 @@ function Manuscripts() {
           className="my-0 w-screen md:w-1/3"
         />
     </div>
-
-
-{/* Individual manuscripts -- Book of Kells etc */}
-
-<div>
-  <h1>Take a look at a few individual manuscripts to get started!</h1>
-</div>
-
-<div>
-  <a href="https://digitalcollections.tcd.ie/concern/works/hm50tr726?locale=en"><Button className="bg-cyan-900 m-1 hover:bg-cyan-700 text-2xl text-lime-100 border-0">The Book of Kells</Button></a>
-</div>
 
 
     </article>
