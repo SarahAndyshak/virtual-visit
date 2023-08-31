@@ -24,7 +24,7 @@ function Splash() {
       style={{backgroundImage: `url(${WheatField})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/met"><Button className="bg-blue-500 hover:bg-blue-300 text-2xl">The Metropolitan Museum of Art</Button></Link>
+        <Link to="/met"><Button className="bg-blue-500 h-fit hover:bg-blue-300 text-2xl">The Metropolitan Museum of Art</Button></Link>
       </div>
     </div>
 
@@ -35,7 +35,7 @@ function Splash() {
       style={{backgroundImage: `url(${Claricia})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/manuscripts"><Button className="bg-green-700 hover:bg-green-500 text-2xl text-yellow-100 border-yellow-100">Digital Books and Manuscripts</Button></Link>
+        <Link to="/manuscripts"><Button className="bg-green-700 h-fit hover:bg-green-500 text-2xl text-yellow-100 border-yellow-100">Digital Books and Manuscripts</Button></Link>
       </div>
     </div>
     
@@ -50,9 +50,9 @@ function Splash() {
 
 {/* Button block */}
     <div className="p-6 text-center">
-      <Link to="/met"><Button className="bg-blue-500 m-1">The Metropolitan Museum of Art</Button></Link>
+      <Link to="/met"><Button className="bg-blue-500 h-fit m-1">The Metropolitan Museum of Art</Button></Link>
 
-      <Link to="/manuscripts"><Button className="bg-green-700 m-1">Digial Books and Manuscripts</Button></Link>
+      <Link to="/manuscripts"><Button className="bg-green-700 h-fit m-1">Digial Books and Manuscripts</Button></Link>
       {/* test button */}
       <Button btn-primary>test!</Button>
     </div>
