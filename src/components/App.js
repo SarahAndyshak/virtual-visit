@@ -5,6 +5,7 @@ import Header from './Header';
 import Splash from './Splash';
 import Met from './Met';
 import Manuscripts from './Manuscripts'
+import Getty from './Getty'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Route path="/" element={<Splash />} />
       <Route path="/met" element={<Met />} />
       <Route path="manuscripts" element={<Manuscripts />} />
+      <Route path="/getty" element={<Getty />} />
+
     </Routes>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 // const StyledHeader = styled.div`
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -24,6 +24,7 @@ function Header() {
             {/* <li><a>The Met</a></li> */}
             <li><Link to="/met">The Met</Link></li>
             <li><Link to="/manuscripts">Manuscripts</Link></li>
+            <li><Link to="/getty">Getty</Link></li>
           </ul>
         </div>
         

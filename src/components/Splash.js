@@ -5,6 +5,7 @@ import { Button } from 'react-daisyui'
 
 import WheatField from "./../imgs/MetImgs/VGWheatField.jpeg"
 import Claricia from "./../imgs/Walters/WaltersClaricia.jpg"
+import GarlandCollage from "./../imgs/Getty/CollageGarland.jpg"
 
 
 function Splash() {
@@ -17,18 +18,18 @@ function Splash() {
     </div>
 
 {/* Navigation images */}
-  <div className="bg-black p-1"></div>
+  {/* <div className="bg-yellow-100 p-1"></div> */}
 
     <div
       className="bg-cover bg-center"
       style={{backgroundImage: `url(${WheatField})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/met"><Button className="bg-blue-500 h-fit hover:bg-blue-300 text-2xl">The Metropolitan Museum of Art</Button></Link>
+        <Link to="/met"><Button className="bg-blue-500 h-fit hover:bg-blue-300 text-2xl text-yellow-100 border-yellow-100">The Metropolitan Museum of Art</Button></Link>
       </div>
     </div>
 
-  <div className="bg-black p-1"></div>
+  <div className="bg-lime-950 p-2"></div>
 
     <div
       className="bg-cover bg-center"
@@ -39,12 +40,20 @@ function Splash() {
       </div>
     </div>
     
+    <div className="bg-yellow-950 p-2"></div>
+
+    <div
+      className="bg-cover bg-center"
+      style={{backgroundImage: `url(${GarlandCollage})`}}
+    >
+      <div className="py-44 text-center">
+        <Link to="/getty"><Button className="bg-rose-500 h-fit hover:bg-rose-400 text-2xl text-yellow-100 border-yellow-100">Getty Museum</Button></Link>
+      </div>
+    </div>
 
 
-    {/* <Link to="/met"><h1>The Metropolitan Museum of Art</h1></Link> */}
-    <h1>Exhibits</h1>
-    <h1>Video Tours</h1>
-    <h1>Google Earth Tours</h1>
+    <h1>Online Exhibits</h1>
+    <h1>Virtual Tours (YouTube, Google Earth)</h1>
     <h1>Publications</h1>
     <h1>Fun Resources</h1>
 
@@ -52,9 +61,10 @@ function Splash() {
     <div className="p-6 text-center">
       <Link to="/met"><Button className="bg-blue-500 h-fit m-1">The Metropolitan Museum of Art</Button></Link>
 
-      <Link to="/manuscripts"><Button className="bg-green-700 h-fit m-1">Digial Books and Manuscripts</Button></Link>
-      {/* test button */}
-      <Button btn-primary>test!</Button>
+      <Link to="/manuscripts"><Button className="bg-green-700 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+
+      <Link to="/manuscripts"><Button className="bg-rose-500 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+
     </div>
 
     </article>
