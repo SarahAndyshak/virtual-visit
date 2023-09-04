@@ -6,5 +6,9 @@ Log:
 - 7/13/23: Add Tailwind, DaisyUI; need to look up how to get background colors, images working
 - August: updating the Met's page
 - 8/31/23: finish Manuscripts.js, make button height responsive
+- 9/1/23: Followed tutorial and added Carousel.js and CarouselData.js to test basic Carousel construction, next step: transfrom it using-- https://reactjsexample.com/easy-to-use-responsive-and-customizable-carousel-component-for-react/ -- but figure out a way to include links -- use TailwindElements sample with link
 
 NOTE: fix the link action for Splash.js buttons -- add useEffect etc to go to the top of the next page.
+
+package.json NOTE
+- added "react-icons": "^4.10.1", "react-router-dom": "^6.14.1" for 1st carousel test

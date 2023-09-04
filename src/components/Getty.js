@@ -1,5 +1,5 @@
 import React from "react";
-
+import Carousel from "./Carousel";
 
 
 function Getty() {
@@ -9,6 +9,10 @@ function Getty() {
 
     <div className="bg-blue-500 text-white text-center p-6">
       <h2 className="text-white">Getty slideshow</h2>
+    </div>
+
+    <div className="flex justify-center">
+      <Carousel />
     </div>
 
 

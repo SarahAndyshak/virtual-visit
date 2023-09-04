@@ -25,6 +25,7 @@ Because this site connects you to external sites, links may stop working if the 
 * Metropolitan Museum of Art: for the associated page on the site
 * Book shelf on Manuscripts page: [Iñaki del Olmo](https://unsplash.com/photos/NIJuEQw0RKg)
 * Library shelves as the background of the World Digital Library on the Manuscripts page: [Susan Q Yin](https://unsplash.com/photos/2JIvboGLeho)
+* Carousel built using [this tutorial](https://www.section.io/engineering-education/how-to-create-a-carousel-using-react-class-components-and-tailwind-css/)
 
 ## License
 [MIT](https://opensource.org/license/mit/)
