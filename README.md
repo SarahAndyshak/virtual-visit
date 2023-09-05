@@ -12,9 +12,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * React.js
 * create-react-app
 * TailwindCSS
+* DaisyUI
 * VS Code
 
 ## Known Bugs
+* The carousel on the Getty page only works with touchpads, not with a mouse.
 * Links on the Splash page work, but don't open to the top of the new page.
 
 ## Disclaimer
