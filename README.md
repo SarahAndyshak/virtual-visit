@@ -16,18 +16,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * VS Code
 
 ## Known Bugs
-* The carousel on the Getty page only works with touchpads, not with a mouse.
-* Links on the Splash page work, but don't open to the top of the new page.
+* As of 9/18/23, none.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
 
-## Images
+## Images & Credits
 * [museum favicon from icons8]("https://icons8.com/icon/4837/museum")
 * Metropolitan Museum of Art: for the associated page on the site
 * Book shelf on Manuscripts page: [Iñaki del Olmo](https://unsplash.com/photos/NIJuEQw0RKg)
 * Library shelves as the background of the World Digital Library on the Manuscripts page: [Susan Q Yin](https://unsplash.com/photos/2JIvboGLeho)
-* Carousel built using [this tutorial](https://www.section.io/engineering-education/how-to-create-a-carousel-using-react-class-components-and-tailwind-css/)
+* "Electronic Superhighway" by Nam June Paik in the Smithsonian American Art Museum as the background for Online Exhibitions on the splash page, photographed by [Richard Hirajeta](https://unsplash.com/photos/xXJ5xPcknRA)
 
 ## License
 [MIT](https://opensource.org/license/mit/)

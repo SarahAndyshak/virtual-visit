@@ -6,6 +6,7 @@ import Splash from './Splash';
 import Met from './Met';
 import Manuscripts from './Manuscripts'
 import Getty from './Getty'
+import Exhibitions from './Exhibitions'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/met" element={<Met />} />
       <Route path="manuscripts" element={<Manuscripts />} />
       <Route path="/getty" element={<Getty />} />
+      <Route path="/exhibitions" element={<Exhibitions />} />
 
     </Routes>
     </>

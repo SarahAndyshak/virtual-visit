@@ -30,7 +30,6 @@ function Getty() {
     <div className="bg-blue-900 text-center p-6">
       <h1 className="text-white">Getty: Conservation • Research • Foundation • Museum</h1>
       <h2 className="text-white">Scroll through the slideshow for links to resources!</h2>
-      {/* <h2 className="text-white">Take at a look at a few of the Getty's works in the slideshow, then check out the resources below!</h2> */}
     </div>
 
 {/* Slide navigation buttons */}

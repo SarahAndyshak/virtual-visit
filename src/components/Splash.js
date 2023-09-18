@@ -6,6 +6,7 @@ import { Button } from 'react-daisyui'
 import WheatField from "./../imgs/MetImgs/VGWheatField.jpeg"
 import Claricia from "./../imgs/Walters/WaltersClaricia.jpg"
 import GarlandCollage from "./../imgs/Getty/CollageGarland.jpg"
+import ElectronicSuperhighway from "./../imgs/ElectronicSuperhighway.jpg"
 
 
 function Splash() {
@@ -21,7 +22,7 @@ function Splash() {
 
 {/* Navigation images */}
   {/* <div className="bg-yellow-100 p-1"></div> */}
-
+{/* Met */}
     <div
       className="bg-cover bg-center"
       style={{backgroundImage: `url(${WheatField})`}}
@@ -32,6 +33,7 @@ function Splash() {
       </div>
     </div>
 
+{/* Books & MSS */}
   <div className="bg-lime-950 p-2"></div>
 
     <div
@@ -44,8 +46,9 @@ function Splash() {
       </div>
     </div>
     
-    <div className="bg-yellow-950 p-2"></div>
+    <div className="bg-red-950 p-2"></div>
 
+{/* Getty */}
     <div
       className="bg-cover bg-center"
       style={{backgroundImage: `url(${GarlandCollage})`}}
@@ -56,19 +59,36 @@ function Splash() {
       </div>
     </div>
 
+    <div className="bg-yellow-950 p-2"></div>
 
-    <h1>Online Exhibits</h1>
+{/* Exhibitions */}
+    <div
+      className="bg-cover bg-center"
+      style={{backgroundImage: `url(${ElectronicSuperhighway})`}}
+    >
+      <div className="py-44 text-center">
+        <Link to="/exhibitions"><Button onClick={() => window.scrollTo(0,0)}
+        className="bg-fuchsia-700 h-fit hover:bg-fuchsia-500 text-2xl text-yellow-100 border-yellow-100">Online Exhibitions</Button></Link>
+      </div>
+    </div>
+
+    <div className="bg-fuchsia-950 p-2"></div>
+
+
+
     <h1>Virtual Tours (YouTube, Google Earth)</h1>
     <h1>Publications</h1>
     <h1>Fun Resources</h1>
 
 {/* Button block */}
     <div className="p-6 text-center">
-      <Link to="/met"><Button onClick={() => window.scrollTo(0,0)} className="bg-blue-500 h-fit m-1">The Metropolitan Museum of Art</Button></Link>
+      <Link to="/met"><Button onClick={() => window.scrollTo(0,0)} className="bg-blue-500 text-yellow-100 h-fit m-1 hover:bg-blue-300">The Metropolitan Museum of Art</Button></Link>
 
-      <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)} className="bg-green-700 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+      <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)} className="bg-green-700 text-yellow-100 hover:bg-green-500 h-fit m-1">Digital Books and Manuscripts</Button></Link>
 
-      <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)} className="bg-rose-500 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+      <Link to="/getty"><Button onClick={() => window.scrollTo(0,0)} className="bg-rose-500 text-yellow-100 h-fit m-1 hover:bg-rose-400">The Getty</Button></Link>
+
+      <Link to="/exhibits"><Button onClick={() => window.scrollTo(0,0)} className="bg-fuchsia-700 text-yellow-100 h-fit m-1 hover:bg-fuchsia-500">Online Exhibitions</Button></Link>
 
     </div>
 

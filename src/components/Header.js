@@ -25,6 +25,7 @@ function Header() {
             <li><Link to="/met">The Met</Link></li>
             <li><Link to="/manuscripts">Manuscripts</Link></li>
             <li><Link to="/getty">Getty</Link></li>
+            <li><Link to="/exhibitions">Exhibitions</Link></li>
           </ul>
         </div>
         
