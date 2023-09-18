@@ -9,6 +9,8 @@ import GarlandCollage from "./../imgs/Getty/CollageGarland.jpg"
 
 
 function Splash() {
+
+
   return(
     <>
     <article className="prose max-w-none">
@@ -25,7 +27,8 @@ function Splash() {
       style={{backgroundImage: `url(${WheatField})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/met"><Button className="bg-blue-500 h-fit hover:bg-blue-300 text-2xl text-yellow-100 border-yellow-100">The Metropolitan Museum of Art</Button></Link>
+        <Link to="/met"><Button onClick={() => window.scrollTo(0,0)} 
+        className="bg-blue-500 h-fit hover:bg-blue-300 text-2xl text-yellow-100 border-yellow-100">The Metropolitan Museum of Art</Button></Link>
       </div>
     </div>
 
@@ -36,7 +39,8 @@ function Splash() {
       style={{backgroundImage: `url(${Claricia})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/manuscripts"><Button className="bg-green-700 h-fit hover:bg-green-500 text-2xl text-yellow-100 border-yellow-100">Digital Books and Manuscripts</Button></Link>
+        <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)}
+        className="bg-green-700 h-fit hover:bg-green-500 text-2xl text-yellow-100 border-yellow-100">Digital Books and Manuscripts</Button></Link>
       </div>
     </div>
     
@@ -47,7 +51,8 @@ function Splash() {
       style={{backgroundImage: `url(${GarlandCollage})`}}
     >
       <div className="py-44 text-center">
-        <Link to="/getty"><Button className="bg-rose-500 h-fit hover:bg-rose-400 text-2xl text-yellow-100 border-yellow-100">Getty Museum</Button></Link>
+        <Link to="/getty"><Button onClick={() => window.scrollTo(0,0)}
+        className="bg-rose-500 h-fit hover:bg-rose-400 text-2xl text-yellow-100 border-yellow-100">Getty Museum</Button></Link>
       </div>
     </div>
 
@@ -59,11 +64,11 @@ function Splash() {
 
 {/* Button block */}
     <div className="p-6 text-center">
-      <Link to="/met"><Button className="bg-blue-500 h-fit m-1">The Metropolitan Museum of Art</Button></Link>
+      <Link to="/met"><Button onClick={() => window.scrollTo(0,0)} className="bg-blue-500 h-fit m-1">The Metropolitan Museum of Art</Button></Link>
 
-      <Link to="/manuscripts"><Button className="bg-green-700 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+      <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)} className="bg-green-700 h-fit m-1">Digital Books and Manuscripts</Button></Link>
 
-      <Link to="/manuscripts"><Button className="bg-rose-500 h-fit m-1">Digital Books and Manuscripts</Button></Link>
+      <Link to="/manuscripts"><Button onClick={() => window.scrollTo(0,0)} className="bg-rose-500 h-fit m-1">Digital Books and Manuscripts</Button></Link>
 
     </div>
 
