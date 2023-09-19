@@ -12,3 +12,35 @@ NOTE: fix the link action for Splash.js buttons -- add useEffect etc to go to th
 
 package.json NOTE
 - added "react-icons": "^4.10.1", "react-router-dom": "^6.14.1" for 1st carousel test
+
+Next: pick up with cards on Exhibitions.js -- deal with centering objects!
+
+
+{/* Test Swap Card */}
+    <label className="swap">
+      <input type="checkbox" />
+      <div className="swap-on">
+        <div className="card bg-red-500 text-primary-content m-1">
+          <div className="card-body">
+            <h2 className="card-title">Side 1!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="swap-off">
+        <div className="card bg-blue-500 text-primary-content m-1">
+          <div className="card-body">
+            <h2 className="card-title">Side 2!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button className="btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </label>

@@ -17,6 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Known Bugs
 * As of 9/18/23, none.
+* Too much vertical space between elements on Exhibitions.js.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.

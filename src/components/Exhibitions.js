@@ -24,7 +24,7 @@ function Exhibitions() {
     <article className="prose max-w-none">
 
 {/* Background color */}
-    <div className="bg-fuchsia-300 pb-1">
+    <div className="bg-fuchsia-100 pb-1">
 
 {/* Header */}
     <div className="bg-fuchsia-900 text-center p-6">
