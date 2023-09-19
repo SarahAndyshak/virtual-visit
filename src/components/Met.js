@@ -49,8 +49,9 @@ function Met() {
         className="w-full bg-no-repeat bg-cover bg-center"
         style={{backgroundImage: `url(${Window})`}}
         >
-        <div className="bg-[hsla(0,0%,0%,0.7)]">
-        <div className="flex justify-center items-center h-full">
+        <div className="bg-black/[0.7]">
+        {/* <div className="bg-[hsla(0,0%,0%,0.7)]">
+        <div className="flex justify-center items-center h-full"> */}
 
         <div className="text-center text-white p-6">
         <h2 className="text-center text-white">Online Exhibitions</h2>
@@ -72,7 +73,8 @@ function Met() {
         <p>A closer look at the tiny details in one of Pieter Bruegel's paintings. This piece is also featured in <a className="text-white" href="https://www.bbc.co.uk/programmes/b07w9jg5">an episode of "Moving Pictures,"</a> created by BBC Radio 4</p>
 
         </div>
-        </div>
+        {/* </div>
+        </div> */}
         </div>
 
       </div>
