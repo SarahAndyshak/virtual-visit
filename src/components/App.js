@@ -9,6 +9,8 @@ import Manuscripts from './Manuscripts'
 import Getty from './Getty'
 import Exhibitions from './Exhibitions'
 
+import ImageCredits from './ImageCredits';
+
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
       <Route path="manuscripts" element={<Manuscripts />} />
       <Route path="/getty" element={<Getty />} />
       <Route path="/exhibitions" element={<Exhibitions />} />
+
+      <Route path="/images" element={<ImageCredits />} />
 
     </Routes>
     <Footer />
