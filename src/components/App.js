@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 import Splash from './Splash';
 import Met from './Met';
 import Manuscripts from './Manuscripts'
@@ -20,6 +21,7 @@ function App() {
       <Route path="/exhibitions" element={<Exhibitions />} />
 
     </Routes>
+    <Footer />
     </>
   );
 }

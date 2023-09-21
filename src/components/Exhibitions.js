@@ -222,6 +222,7 @@ function Exhibitions() {
     </div>
 
     <h2 className="text-center text-fuchsia-900">Take a look at more online exhibitions from museums around the world at <a className="text-lime-700 hover:text-lime-900" href="https://artsandculture.google.com/partner">Google Arts & Culture</a>!</h2>
+
 {/* Close background color */}
     </div>
 

@@ -24,6 +24,7 @@ Because this site connects you to external sites, links may stop working if the 
 
 ## Images & Credits
 * [museum favicon from icons8]("https://icons8.com/icon/4837/museum")
+* [footer icons from heroicons]("https://heroicons.com/)
 * Metropolitan Museum of Art: for the associated page on the site
 * Book shelf on Manuscripts page: [Iñaki del Olmo](https://unsplash.com/photos/NIJuEQw0RKg)
 * Library shelves as the background of the World Digital Library on the Manuscripts page: [Susan Q Yin](https://unsplash.com/photos/2JIvboGLeho)
