@@ -134,7 +134,13 @@ function ImageCredits() {
         <li>Himeji Castle, <a href="https://unsplash.com/photos/lpWPQ6KN5P4">photographed by Shino</a></li>
 
         <li>Isabella Stewart Gardner Museum courtyard, <a href="https://unsplash.com/photos/Agz-3dok9Y8">photographed by Hanyang Zhang</a></li>
+
+        <li>Edgar Degas, <a href="https://www.metmuseum.org/art/collection/search/438817"><i>The Dance Class</i></a></li>
+          
+        <li>13th-century French workshop, <a href="https://www.metmuseum.org/art/collection/search/469857"><i>Theodosius Arrives at Ephesus</i></a>, from a Scene from the Legend of the Seven Sleepers of Ephesus</li>      
+      
       </ul>
+      
     </div>
 
       </div>

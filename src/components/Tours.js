@@ -7,6 +7,8 @@ import PalazzoDelTe from "./../imgs/PalazzoDelTeGiants.jpeg"
 import Oxford from "./../imgs/OxfordGarden.jpeg"
 import Himeji from "./../imgs/Himeji.jpg"
 import ISGCourtyard from "./../imgs/ISGCourtyard.jpg"
+import DanceClass from "./../imgs/MetImgs/DegasDanceClass.jpeg"
+import Theodosius from "./../imgs/MetImgs/TheodosiusWindow.jpeg"
 
 function Tours() {
   return(
@@ -59,6 +61,13 @@ function Tours() {
         <a href="https://artsandculture.google.com/partner/oxford-botanic-garden-and-arboretum"><Button className="bg-purple-900 hover:bg-purple-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Oxford Botanic Garden & Arboretum</Button></a>
       </div>
 
+{/* Isabella Stewart Gardner Museum */}
+    <div 
+      className="text-center p-20 bg-cover bg-center"
+      style={{backgroundImage: `url(${ISGCourtyard})`}}>
+        <a href="https://artsandculture.google.com/streetview/isabella-stewart-gardner-museum/WgGwvp4sRb4yrw?sv_lng=-71.09891535715373&sv_lat=42.338619456354955&sv_h=280&sv_p=0&sv_pid=ielw90_WKZU0jZSQ82SIww&sv_z=1"><Button className="bg-pink-900 hover:bg-pink-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Isabella Stewart Gardner Museum</Button></a>
+      </div>
+
 {/* Himeji Castle */}
     <div 
       className="text-center p-20 bg-cover bg-center"
@@ -66,11 +75,18 @@ function Tours() {
         <a href="https://artsandculture.google.com/streetview/himeji-jo/IAHRTxrMYeWWXQ"><Button className="bg-sky-700 hover:bg-sky-500 text-amber-200 border-1 border-amber-200 h-fit text-xl">Himeji Castle</Button></a>
       </div>
 
-{/* Isabella Stewart Gardner Museum */}
+{/* Met 5th Ave */}
     <div 
       className="text-center p-20 bg-cover bg-center"
-      style={{backgroundImage: `url(${ISGCourtyard})`}}>
-        <a href="https://artsandculture.google.com/streetview/isabella-stewart-gardner-museum/WgGwvp4sRb4yrw?sv_lng=-71.09891535715373&sv_lat=42.338619456354955&sv_h=280&sv_p=0&sv_pid=ielw90_WKZU0jZSQ82SIww&sv_z=1"><Button className="bg-pink-900 hover:bg-pink-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Isabella Stewart Gardner Museum</Button></a>
+      style={{backgroundImage: `url(${DanceClass})`}}>
+        <a href="https://artsandculture.google.com/streetview/metropolitan-museum-of-art/KAFHmsOTE-4Xyw?sv_lng=-73.9624786&sv_lat=40.7803959&sv_h=322.9&sv_p=0&sv_pid=KeFx8oXHzeuY8L5rfepHaA&sv_z=1"><Button className="bg-emerald-900 hover:bg-emerald-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">The Met 5th Avenue</Button></a>
+      </div>
+
+{/* Met Cloisters */}
+    <div 
+      className="text-center p-20 bg-cover bg-top"
+      style={{backgroundImage: `url(${Theodosius})`}}>
+        <a href="https://artsandculture.google.com/streetview/the-cloisters-museum-and-gardens/aAFFBxRsY3TilQ"><Button className="bg-red-900 hover:bg-red-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">The Met Cloisters</Button></a>
       </div>
 
 {/* close grid */}
