@@ -23,6 +23,11 @@ function ImageCredits() {
           <li>Getty Museum: John Bingley Garland, <a href="https://www.getty.edu/art/collection/object/109Q8D"><i>Collage</i></a></li>
           
           <li>Online Exhibitions: Nam June Paik, <i>Electronic Superhighway</i> photographed by <a href="https://unsplash.com/photos/xXJ5xPcknRA">Richard Hirajeta</a></li>
+
+          <li>Château de Versailles, <a href="https://en.wikipedia.org/wiki/Palace_of_Versailles#/media/File:Chateau_Versailles_Galerie_des_Glaces.jpg">Galerie des Glaces</a></li>
+          
+          <li><a href="https://unsplash.com/photos/NIJuEQw0RKg">Iñaki del Olmo, </a>Bookshelf</li>
+
         </ul>
       </div>
 

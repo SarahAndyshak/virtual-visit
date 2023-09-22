@@ -8,6 +8,7 @@ import Claricia from "./../imgs/Walters/WaltersClaricia.jpg"
 import GarlandCollage from "./../imgs/Getty/CollageGarland.jpg"
 import ElectronicSuperhighway from "./../imgs/ElectronicSuperhighway.jpg"
 import Versailles from "./../imgs/Versailles.jpeg"
+import Shelf from "./../imgs/Shelf.jpg"
 
 
 function Splash() {
@@ -88,9 +89,21 @@ function Splash() {
 
     <div className="bg-amber-800 p-2"></div>
 
+{/* Virtual Tours */}
+    <div
+      className="bg-cover bg-center"
+      style={{backgroundImage: `url(${Shelf})`}}
+    >
+      <div className="py-44 text-center">
+        <Link to="/publications"><Button onClick={() => window.scrollTo(0,0)}
+        className="bg-cyan-800 h-fit hover:bg-cyan-600 text-2xl text-yellow-100 border-yellow-100">Publications</Button></Link>
+      </div>
+    </div>
+
+    <div className="bg-cyan-950 p-2"></div>
 
 
-    <h1>Publications</h1>
+
     <h1>Fun, other sources?</h1>
 
 {/* Button block */}
@@ -104,6 +117,8 @@ function Splash() {
       <Link to="/exhibits"><Button onClick={() => window.scrollTo(0,0)} className="bg-fuchsia-700 text-yellow-100 h-fit m-1 hover:bg-fuchsia-500">Online Exhibitions</Button></Link>
 
       <Link to="/tours"><Button onClick={() => window.scrollTo(0,0)} className="bg-amber-600 text-yellow-100 h-fit m-1 hover:bg-amber-500">Virtual Tours</Button></Link>
+
+      <Link to="/publications"><Button onClick={() => window.scrollTo(0,0)} className="bg-cyan-800 text-yellow-100 h-fit m-1 hover:bg-cyan-600">Publications</Button></Link>
 
     </div>
 
