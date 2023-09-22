@@ -95,17 +95,17 @@ function Tours() {
 {/* Embed video */}
     <div className="flex justify-center">
 {/* The Louvre */}
-      <iframe className="mb-1" width="560" height="315" src="https://www.youtube.com/embed/6vuFh6NNa70?si=p1F_Ssq0FYCcbvAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className="mb-1 w-full aspect-video" src="https://www.youtube.com/embed/6vuFh6NNa70?si=p1F_Ssq0FYCcbvAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div className="flex justify-center">
 {/* Venice */}
-      <iframe className="mb-1" width="560" height="315" src="https://www.youtube.com/embed/0txBFbAuhLY?si=AZZAuAKhUFkTqDuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className="mb-1 w-full aspect-video" src="https://www.youtube.com/embed/0txBFbAuhLY?si=AZZAuAKhUFkTqDuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div className="flex justify-center">
 {/* Olympic National Park */}
-      <iframe className="mb-1" width="560" height="315" src="https://www.youtube.com/embed/9frdQgL9WlQ?si=KhQUKTdWfXNKpFLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className="mb-1 w-full aspect-video" src="https://www.youtube.com/embed/9frdQgL9WlQ?si=KhQUKTdWfXNKpFLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
 {/* background color */}
