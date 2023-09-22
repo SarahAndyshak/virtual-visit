@@ -27,6 +27,7 @@ function Header() {
             <li><Link to="/getty">Getty</Link></li>
             <li><Link to="/exhibitions">Exhibitions</Link></li>
             <li><Link to="/tours">Tours</Link></li>
+            <li><Link to="/publications">Publications</Link></li>
             <li><Link to="/images">Image Credits</Link></li>
           </ul>
         </div>

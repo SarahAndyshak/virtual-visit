@@ -55,6 +55,7 @@ function ImageCredits() {
         <h2>Digital Books and Manuscripts</h2>
           <ul>
             <li><a href="https://unsplash.com/photos/NIJuEQw0RKg">Iñaki del Olmo, </a>Bookshelf</li>
+            
             <li><i>Book of Kells, </i><a href="https://en.wikipedia.org/wiki/Book_of_Kells#/media/File:KellsFol002rCanonTable.jpg">Canon Table</a></li>
             
             <li>Illustrated capital from the <i>Claricia Psalter</i>, <a href="https://art.thewalters.org/detail/25823/claricia-swinging-on-an-initial-q-2/">Walters MS W.26.64R, fol. 64r</a></li>
@@ -140,7 +141,15 @@ function ImageCredits() {
         <li>13th-century French workshop, <a href="https://www.metmuseum.org/art/collection/search/469857"><i>Theodosius Arrives at Ephesus</i></a>, from a Scene from the Legend of the Seven Sleepers of Ephesus</li>      
       
       </ul>
-      
+
+{/* Publications */}
+    <div>
+      <h2>Publications</h2>
+        <ul>
+          <li><a href="https://unsplash.com/photos/NIJuEQw0RKg">Iñaki del Olmo, </a>Bookshelf</li>
+        </ul>
+    </div>
+
     </div>
 
       </div>

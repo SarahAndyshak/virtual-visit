@@ -180,7 +180,7 @@ function Manuscripts() {
 
       <div className="text-center text-white p-6">
         
-      <a href="https://www.getty.edu/research/publications/electronic_publications/"><Button className="bg-transparent border-white-2 h-fit hover:bg-yellow-500 text-2xl text-white">The World Digital Library</Button></a>
+      <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/"><Button className="bg-transparent border-white-2 h-fit hover:bg-yellow-500 text-2xl text-white">The World Digital Library</Button></a>
 
         {/* <h1 className="text-white">The World Digital Library</h1> */}
 

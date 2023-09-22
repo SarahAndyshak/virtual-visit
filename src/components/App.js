@@ -10,6 +10,7 @@ import Getty from './Getty'
 import Exhibitions from './Exhibitions'
 import Tours from './Tours';
 import ImageCredits from './ImageCredits';
+import Publications from './Publications';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/getty" element={<Getty />} />
       <Route path="/exhibitions" element={<Exhibitions />} />
       <Route path="/tours" element={<Tours />} />
+      <Route path="/publications" element={<Publications />} />
 
       <Route path="/images" element={<ImageCredits />} />
 
