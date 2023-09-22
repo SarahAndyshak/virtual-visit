@@ -119,6 +119,24 @@ function ImageCredits() {
         </ul>
       </div>
 
+{/* Virtual Tours */}
+    <div>
+      <h2>Virtual Tours</h2>
+      <ul>
+        <li>Unknown artist, <a href="https://en.wikipedia.org/wiki/Eiffel_Tower#/media/File:Exposition_Universelle_de_Paris_1889_-_Universit%C3%A4ts-_und_Landesbibliothek_Darmstadt.jpg">View of the Eiffel Tower at the 1889 World's Fair</a></li>
+        
+        <li>Giulio Romano, fresco <a href="https://en.wikipedia.org/wiki/Giulio_Romano#/media/File:Gigant.jpg"><i>The Fall of the Giants</i></a> in the Palazzo del Te</li>
+
+        <li>Château de Versailles, <a href="https://en.wikipedia.org/wiki/Palace_of_Versailles#/media/File:Chateau_Versailles_Galerie_des_Glaces.jpg">Galerie des Glaces</a></li>
+
+        <li>Oxford Botanical Garden and Arboretum, <a href="https://en.wikipedia.org/wiki/University_of_Oxford_Botanic_Garden#/media/File:An_obscured_Magdalen_Great_Tower_from_the_Botanic_Gardens.jpg">photographed by Ozeye</a></li>
+
+        <li>Himeji Castle, <a href="https://unsplash.com/photos/lpWPQ6KN5P4">photographed by Shino</a></li>
+
+        <li>Isabella Stewart Gardner Museum courtyard, <a href="https://unsplash.com/photos/Agz-3dok9Y8">photographed by Hanyang Zhang</a></li>
+      </ul>
+    </div>
+
       </div>
 
     </article>

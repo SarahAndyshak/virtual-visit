@@ -29,7 +29,7 @@ function Exhibitions() {
 {/* Header */}
     <div className="bg-fuchsia-900 text-center p-6">
       <h1 className="text-white">Online Exhibitions</h1>
-      <h2 className="text-white">Many museums around the world have exhibitions available online, both at their own sites, and on <a className="text-lime-300 hover:text-lime-500" href="https://artsandculture.google.com/partner">Google Arts & Culture.</a> <br /><br />These are just a few to start your explorations.</h2>
+      <h2 className="text-white">Many museums around the world have exhibitions available online, both at their own sites, and on <a className="text-lime-300 hover:text-lime-500" href="https://artsandculture.google.com/partner">Google Arts & Culture.</a> <br /><br />These are just a few suggestions to start your explorations.</h2>
     </div>
 
 
