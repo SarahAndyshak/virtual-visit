@@ -150,7 +150,7 @@ function Manuscripts() {
     <div className="flex flex-wrap md:flex-nowrap">
         <img 
           src={MoralizedBible} 
-          alt="Dedication image from the Morgan's Moralized Bible, MS M.240, f.8r"
+          alt="Dedication page from the Morgan's Moralized Bible, MS M.240, f.8r"
           className="my-0 w-screen md:w-1/3"
         />
       
@@ -181,8 +181,6 @@ function Manuscripts() {
       <div className="text-center text-white p-6">
         
       <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/"><Button className="bg-transparent border-white-2 h-fit hover:bg-yellow-500 text-2xl text-white">The World Digital Library</Button></a>
-
-        {/* <h1 className="text-white">The World Digital Library</h1> */}
 
         <p>Hosted by the Library of Congress and created in connection with UNESCO and institutions around the world, the <a className="text-yellow-500 hover:text-green-600" href="https://www.loc.gov/collections/world-digital-library/about-this-collection/">World Digital Library</a> collects manuscripts and books along with newspapers, photos, prints, maps, sound recordings, and films. Although the project has ended and the materials have shifted to the Library of Congress's website, the materials are still available to the public.</p>
       </div>

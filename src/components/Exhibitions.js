@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Card } from 'react-daisyui'
+// import { Link } from "react-router-dom";
+import { Button } from 'react-daisyui'
 
-import ElectronicSuperhighway from './../imgs/ElectronicSuperhighway.jpg'
+// import ElectronicSuperhighway from './../imgs/ElectronicSuperhighway.jpg'
 import Window from './../imgs/MetImgs/LaFargeWindow.jpeg'
 import CollageGarland from "./../imgs/Getty/CollageGarland.jpg"
 import Galette from "./../imgs/RenoirMoulinDeLaGalette.jpeg"
@@ -254,13 +254,6 @@ function Exhibitions() {
 
 {/* Close background color */}
     </div>
-
-<div className="grid grid-cols-1 gap-1 items-center my-1 md:grid-cols-3">
-  {/* Eiffel Tower */}
-
-
-</div>
-
 
 
     </article>

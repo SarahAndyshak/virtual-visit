@@ -12,21 +12,6 @@ import SkyDetail from "./../imgs/MetImgs/SkyDetail.png"
 import TunicDetail from "./../imgs/MetImgs/TunicDetail.png"
 
 
-
-// Add open links in new tab?
-
-// How to style background images
-    // <div
-    //   className="bg-cover bg-center text-white h-auto max-w-full m-0 p-6"
-    //   style={{backgroundImage: `url(${Oxbow})`}}
-    // >
-    // <h2 className="text-white text-center">Downloadable Art</h2>
-    // </div>
-
-// How to insert image full width, responsive
-      // <img src={Oxbow} className="h-auto max-w-full m-0"/>
-
-
 function Met() {
   return (
     <>
@@ -40,9 +25,6 @@ function Met() {
 
         <p>Much of the Met's collection is in the <span className="tooltip underline text-white hover:text-blue-600" data-tip="materials in the public domain are not copyrighted, and can be used by the public">public domain</span>, so visitors can download and use certain images, materials, and data for their own use in accordance with the museum's <a className="text-white" href="https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources">Open Access policy.</a></p>
       </div>
-
-
-{/* Try turning this section into a carousel once the page is set up */}
 
 {/* Online exibitions */}
       <div
@@ -73,8 +55,6 @@ function Met() {
         <p>A closer look at the tiny details in one of Pieter Bruegel's paintings. This piece is also featured in <a className="text-white" href="https://www.bbc.co.uk/programmes/b07w9jg5">an episode of "Moving Pictures,"</a> created by BBC Radio 4</p>
 
         </div>
-        {/* </div>
-        </div> */}
         </div>
 
       </div>
@@ -260,3 +240,18 @@ function Met() {
 }
 
 export default Met;
+
+
+
+// Add open links in new tab?
+
+// How to style background images
+    // <div
+    //   className="bg-cover bg-center text-white h-auto max-w-full m-0 p-6"
+    //   style={{backgroundImage: `url(${Oxbow})`}}
+    // >
+    // <h2 className="text-white text-center">Downloadable Art</h2>
+    // </div>
+
+// How to insert image full width, responsive
+      // <img src={Oxbow} className="h-auto max-w-full m-0"/>
