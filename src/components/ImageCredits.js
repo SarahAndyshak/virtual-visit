@@ -24,9 +24,11 @@ function ImageCredits() {
           
           <li>Online Exhibitions: Nam June Paik, <i>Electronic Superhighway</i> photographed by <a href="https://unsplash.com/photos/xXJ5xPcknRA">Richard Hirajeta</a></li>
 
-          <li>Château de Versailles, <a href="https://en.wikipedia.org/wiki/Palace_of_Versailles#/media/File:Chateau_Versailles_Galerie_des_Glaces.jpg">Galerie des Glaces</a></li>
+          <li>Virtual Tours: Château de Versailles, <a href="https://en.wikipedia.org/wiki/Palace_of_Versailles#/media/File:Chateau_Versailles_Galerie_des_Glaces.jpg">Galerie des Glaces</a></li>
           
-          <li><a href="https://unsplash.com/photos/NIJuEQw0RKg">Iñaki del Olmo, </a>Bookshelf</li>
+          <li>Publications: <a href="https://unsplash.com/photos/NIJuEQw0RKg">Iñaki del Olmo, </a>Bookshelf</li>
+
+          <li>Fun Resources: Carl Kahler, <a href="https://en.wikipedia.org/wiki/My_Wife%27s_Lovers#/media/File:Carl_Kahler_-_My_Wife's_Lovers.jpg"><i>My Wife's Lovers</i></a></li>
 
         </ul>
       </div>
