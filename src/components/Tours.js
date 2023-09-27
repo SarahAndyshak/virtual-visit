@@ -35,56 +35,64 @@ function Tours() {
     
 {/* Eiffel Tower */}
       <div 
-      className="text-center p-20 bg-center"
+      // className="text-center p-20 bg-center"
+      className="h-52 bg-center flex justify-center items-center"
       style={{backgroundImage: `url(${EiffelTower})`}}>
         <a href="https://artsandculture.google.com/partner/tour-eiffel"><Button className="bg-red-900 hover:bg-red-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Eiffel Tower</Button></a>
       </div>
 
 {/* Palazzo del Te */}
       <div 
-      className="text-center p-20 bg-cover"
+      // className="text-center p-20 bg-cover"
+      className="h-52 bg-cover flex justify-center items-center"
       style={{backgroundImage: `url(${PalazzoDelTe})`}}>
         <a href="https://artsandculture.google.com/partner/palazzo-te"><Button className="bg-teal-900 hover:bg-teal-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Palazzo del Te</Button></a>
       </div>
 
 {/* Versailles */}
       <div 
-      className="text-center p-20 bg-cover"
+      // className="text-center p-20 bg-cover"
+      className="h-52 bg-cover flex justify-center items-center"
       style={{backgroundImage: `url(${Versailles})`}}>
         <a href="https://artsandculture.google.com/partner/palace-of-versailles"><Button className="bg-lime-900 hover:bg-lime-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Palace of Versailles</Button></a>
       </div>
 
 {/* Oxford Botanic Garden & Arboretum */}
     <div 
-      className="text-center p-20 bg-cover bg-bottom"
+      // className="text-center p-20 bg-cover bg-bottom"
+      className="h-52 bg-cover bg-bottom flex justify-center items-center"
       style={{backgroundImage: `url(${Oxford})`}}>
         <a href="https://artsandculture.google.com/partner/oxford-botanic-garden-and-arboretum"><Button className="bg-purple-900 hover:bg-purple-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Oxford Botanic Garden & Arboretum</Button></a>
       </div>
 
 {/* Isabella Stewart Gardner Museum */}
     <div 
-      className="text-center p-20 bg-cover bg-center"
+      // className="text-center p-20 bg-cover bg-center"
+      className="h-52 bg-cover bg-center flex justify-center items-center"
       style={{backgroundImage: `url(${ISGCourtyard})`}}>
         <a href="https://artsandculture.google.com/streetview/isabella-stewart-gardner-museum/WgGwvp4sRb4yrw?sv_lng=-71.09891535715373&sv_lat=42.338619456354955&sv_h=280&sv_p=0&sv_pid=ielw90_WKZU0jZSQ82SIww&sv_z=1"><Button className="bg-pink-900 hover:bg-pink-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">Isabella Stewart Gardner Museum</Button></a>
       </div>
 
 {/* Himeji Castle */}
     <div 
-      className="text-center p-20 bg-cover bg-center"
+      // className="text-center p-20 bg-cover bg-center"
+      className="h-52 bg-cover bg-center flex justify-center items-center"
       style={{backgroundImage: `url(${Himeji})`}}>
         <a href="https://artsandculture.google.com/streetview/himeji-jo/IAHRTxrMYeWWXQ"><Button className="bg-sky-700 hover:bg-sky-500 text-amber-200 border-1 border-amber-200 h-fit text-xl">Himeji Castle</Button></a>
       </div>
 
 {/* Met 5th Ave */}
     <div 
-      className="text-center p-20 bg-cover bg-center"
+      // className="text-center p-20 bg-cover bg-center"
+      className="h-52 bg-cover bg-center flex justify-center items-center"
       style={{backgroundImage: `url(${DanceClass})`}}>
         <a href="https://artsandculture.google.com/streetview/metropolitan-museum-of-art/KAFHmsOTE-4Xyw?sv_lng=-73.9624786&sv_lat=40.7803959&sv_h=322.9&sv_p=0&sv_pid=KeFx8oXHzeuY8L5rfepHaA&sv_z=1"><Button className="bg-emerald-900 hover:bg-emerald-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">The Met 5th Avenue</Button></a>
       </div>
 
 {/* Met Cloisters */}
     <div 
-      className="text-center p-20 bg-cover bg-top"
+      // className="text-center p-20 bg-cover bg-top"
+      className="h-52 bg-cover flex justify-center items-center"
       style={{backgroundImage: `url(${Theodosius})`}}>
         <a href="https://artsandculture.google.com/streetview/the-cloisters-museum-and-gardens/aAFFBxRsY3TilQ"><Button className="bg-red-900 hover:bg-red-700 text-amber-200 border-1 border-amber-200 h-fit text-xl">The Met Cloisters</Button></a>
       </div>
