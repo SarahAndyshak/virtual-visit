@@ -23,26 +23,26 @@ function Publications() {
       style={{backgroundImage: `url(${Shelf})`}}>
       <div className="bg-black/[0.7] py-6 px-12 text-center text-amber-200">
         <h2 className="text-amber-200">Many museums have made out of print publications and catalogue exhibits available online.</h2>
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
+        {/* <div className="grid grid-cols-1 gap-2 md:grid-cols-3"> */}
 
 {/* MetPublications */}
-          <a href="https://www.metmuseum.org/art/metpublications"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">MetPublications</Button></a>
+          <a href="https://www.metmuseum.org/art/metpublications"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">MetPublications</Button></a>
 
 {/* Getty Publications */}
-          <a href="https://www.getty.edu/publications/virtuallibrary/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">Getty Publications</Button></a>
+          <a href="https://www.getty.edu/publications/virtuallibrary/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">Getty Publications</Button></a>
 
 {/* Library of Congress */}
-          <a href="https://www.loc.gov/collections/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">Library of Congress</Button></a>
+          <a href="https://www.loc.gov/collections/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">Library of Congress</Button></a>
 
 {/* BnF */}
-          <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">Bibliothèque nationale de France</Button></a>
+          <a href="https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">Bibliothèque nationale de France</Button></a>
 
 {/* British Library */}
-          <a href="https://www.bl.uk/catalogues-and-collections/digital-collections"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">British Library</Button></a>
+          <a href="https://www.bl.uk/catalogues-and-collections/digital-collections"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">British Library</Button></a>
 
 {/* WDL */}
-          <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit">World Digital Library</Button></a>
-        </div>
+          <a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/"><Button className="border-1 border-amber-200 bg-transparent text-amber-200 hover:bg-amber-100/20 hover:border-amber-200 hover:text-amber-400 h-fit m-2">World Digital Library</Button></a>
+        {/* </div> */}
       </div>
     </div>
 
