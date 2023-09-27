@@ -26,7 +26,7 @@ function Fun() {
 {/* Tapestry Maker */}
       <div className="text-center">
       <a href="https://htck.github.io/bayeux/#!/"><img className= "mx-auto" src={Bayeux} alt="Create your own medieval images with the Historic Tale Construction Kit!" /></a>
-        <a  href="https://htck.github.io/bayeux/#!/"><Button className="mb-12 bg-sky-700 hover:bg-transparent border-2 border-sky-700 hover:border-sky-700 text-xl text-sky-100 hover:text-sky-700">Historic Tale Construction Kit</Button></a>
+        <a  href="https://htck.github.io/bayeux/#!/"><Button className="mb-12 bg-sky-700 hover:bg-transparent border-2 border-sky-700 hover:border-sky-700 text-xl text-sky-100 hover:text-sky-700 h-fit">Historic Tale Construction Kit</Button></a>
       </div>
 
 {/* Podcasts */}
@@ -93,12 +93,11 @@ function Fun() {
 
 {/* My Wife's Lovers */}
       <div className="text-center py-6">
-        <a href="https://en.wikipedia.org/wiki/My_Wife%27s_Lovers"><Button className="bg-sky-700 hover:bg-transparent border-2 border-sky-700 hover:border-sky-700 text-xl text-sky-100 hover:text-sky-700">My Wife's Lovers, by Carl Kahler</Button></a>
-        {/* <h2 className="text-center"><a href="https://en.wikipedia.org/wiki/My_Wife%27s_Lovers"><i>My Wife's Lovers,</i> by Carl Kahler</a></h2> */}
+        <a href="https://en.wikipedia.org/wiki/My_Wife%27s_Lovers"><Button className="bg-sky-700 hover:bg-transparent border-2 border-sky-700 hover:border-sky-700 text-xl text-sky-100 hover:text-sky-700 h-fit">My Wife's Lovers, by Carl Kahler</Button></a>
         <img className="mx-auto" src={Cats} alt="19th-century painting by Carl Kahler of 42 cats, entitled My Wife's Lovers"/>
       </div>
 
-{/* close background color     */}
+{/* close background color */}
     </div>
 
     </article>

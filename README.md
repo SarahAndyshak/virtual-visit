@@ -54,10 +54,10 @@ Fun Resources: [Carl Kahler, "My Wife's Lovers](https://en.wikipedia.org/wiki/My
 [Renoir, Bal du moulin de la Galette](https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay#/media/File:Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg), 
 [Van Gogh, Sunflowers](https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)#/media/File:Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg), 
 [Botticelli, The Birth of Venus](https://en.wikipedia.org/wiki/The_Birth_of_Venus#/media/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg), 
-[Oldenburg, Shuttlecock](https://en.wikipedia.org/wiki/File:Shuttlecock_-_Nelson_Art_Gallery.png), 
+[Oldenburg and van Bruggen, Shuttlecock](https://en.wikipedia.org/wiki/File:Shuttlecock_-_Nelson_Art_Gallery.png), 
 [British Museum interior by Sharissa Johnson](https://unsplash.com/photos/RnT5Y9i9n94), 
 [Stuart, The Lansdowne Portrait of George Washington](https://en.wikipedia.org/wiki/National_Portrait_Gallery_(United_States)#/media/File:Gilbert_Stuart_-_George_Washington_(Lansdowne_Portrait)_-_Google_Art_Project.jpg), 
-[Jan Van Eyck, The Arnolfini Portrait](https://en.wikipedia.org/wiki/National_Gallery#/media/File:Van_Eyck_-_Arnolfini_Portrait.jpg), 
+[Jan Van Eyck, The Arnolfini Portrait](https://en.wikipedia.org/wiki/Arnolfini_Portrait#/media/File:The_Arnolfini_portrait_(1434).jpg), 
 [Rembrandt, The Night Watch](https://en.wikipedia.org/wiki/The_Night_Watch#/media/File:The_Night_Watch_-_HD.jpg), 
 [Pieter Brueghel the Elder, The Netherlandish Proverbs](https://en.wikipedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg), 
 [Galerie des Glaces, Château de Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles#/media/File:Chateau_Versailles_Galerie_des_Glaces.jpg)
