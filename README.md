@@ -17,7 +17,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Known Bugs
 * As of 9/18/23, none.
-* Too much vertical space between elements on Exhibitions.js -- something to do with link and div.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
@@ -35,7 +34,7 @@ Virtual Tours: [Galerie des Glaces, Château de Versailles](https://en.wikipedia
 Publications: [Iñaki del Olmo, Book shelf ](https://unsplash.com/photos/NIJuEQw0RKg), 
 Fun Resources: [Carl Kahler, "My Wife's Lovers](https://en.wikipedia.org/wiki/My_Wife%27s_Lovers#/media/File:Carl_Kahler_-_My_Wife's_Lovers.jpg)
 
-* Metropolitan Museum of Art: see ImageCredits.js for a list of works
+* Metropolitan Museum of Art: see the Image Credits page (ImageCredits.js) for a list of works
 
 * Manuscripts page: 
 [Iñaki del Olmo, Book shelf ](https://unsplash.com/photos/NIJuEQw0RKg), 
@@ -46,7 +45,7 @@ Fun Resources: [Carl Kahler, "My Wife's Lovers](https://en.wikipedia.org/wiki/My
 [13th century French workshop, Dedication page from the Moralized Bible of St. Louis, Morgan Library MS M.240, fol. 8r](https://www.themorgan.org/manuscript/77422), 
 [Georges de Feure, illustration for La Porte des rêves](https://gallica.bnf.fr/ark:/12148/btv1b8600233m/f194.item)
 
-* Getty Museum: see ImageCredits.js for a list of works
+* Getty Museum: see the Image Credits page (ImageCredits.js) for a list of works
 
 * Online Exhibitions page: 
 [John La Farge, Peonies Blown in the Wind](https://www.metmuseum.org/art/collection/search/5582) 
@@ -78,9 +77,7 @@ Isabella Stewart Gardner Museum courtyard photographed by [Hanyang Zhang](https:
 [Joris Hoefnagel, Mira Calligraphiae Monumenta, Getty MS 20 (86.MV.527), fol. 143](https://www.getty.edu/art/collection/object/105TPW), 
 [Botticelli, The Birth of Venus](https://en.wikipedia.org/wiki/The_Birth_of_Venus#/media/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg), 
 "Electronic Superhighway" by Nam June Paik in the Smithsonian American Art Museum, photographed by [Richard Hirajeta](https://unsplash.com/photos/xXJ5xPcknRA), 
-[Roman strigilated vase, Metropolitan Museum of Art object 2007.31a](https://www.metmuseum.org/art/collection/search/257818), 
-
-[Carl Kahler, "My Wife's Lovers](https://en.wikipedia.org/wiki/My_Wife%27s_Lovers#/media/File:Carl_Kahler_-_My_Wife's_Lovers.jpg)
+[Roman strigilated vase, Metropolitan Museum of Art object 2007.31a](https://www.metmuseum.org/art/collection/search/257818), [Carl Kahler, "My Wife's Lovers](https://en.wikipedia.org/wiki/My_Wife%27s_Lovers#/media/File:Carl_Kahler_-_My_Wife's_Lovers.jpg)
 
 
 
