@@ -125,7 +125,7 @@ function Splash() {
 
       <Link to="/getty"><Button onClick={() => window.scrollTo(0,0)} className="bg-rose-500 text-yellow-100 h-fit m-1 hover:bg-rose-400">The Getty</Button></Link>
 
-      <Link to="/exhibits"><Button onClick={() => window.scrollTo(0,0)} className="bg-fuchsia-700 text-yellow-100 h-fit m-1 hover:bg-fuchsia-500">Online Exhibitions</Button></Link>
+      <Link to="/exhibitions"><Button onClick={() => window.scrollTo(0,0)} className="bg-fuchsia-700 text-yellow-100 h-fit m-1 hover:bg-fuchsia-500">Online Exhibitions</Button></Link>
 
       <Link to="/tours"><Button onClick={() => window.scrollTo(0,0)} className="bg-amber-600 text-yellow-100 h-fit m-1 hover:bg-amber-500">Virtual Tours</Button></Link>
 
