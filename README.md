@@ -6,7 +6,7 @@ Online exhibits and tours have been around for a while, but got more attention d
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Using This App
-<!-- Visit the [site online here!]() -->
+Visit the [site online here!](https://virtual-visit.vercel.app/)
 
 ## Technologies Used
 * React.js
