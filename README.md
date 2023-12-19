@@ -15,8 +15,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * DaisyUI
 * VS Code
 
+## Screenshots
+Splash/home page
+![Splash page](virtual-visit-splash.png)
+Met resources
+![Metropolitan Museum of Art page](virtual-visit-met.png)
+Virtual tour resources
+![Virtual tours](virtual-visit-tours.png)
+Online publications directory
+![Online publications](virtual-visit-publications.png)
+Image credits page
+![Image credits page](virtual-visit-image-credits.png)
+
 ## Known Bugs
-* As of 9/18/23, none.
+* As of 129/18/23, none.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
