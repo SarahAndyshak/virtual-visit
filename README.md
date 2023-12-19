@@ -28,7 +28,7 @@ Image credits page
 ![Image credits page](virtual-visit-image-credits.png)
 
 ## Known Bugs
-* As of 129/18/23, none.
+* As of 12/18/23, none.
 
 ## Disclaimer
 Because this site connects you to external sites, links may stop working if the hosting institution removes them. All materials belong to the creators and institutions of origin.
